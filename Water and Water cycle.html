@@ -30,6 +30,21 @@
 		margin: auto;
 	}
 	</style>
+		<style>
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #00ff62;
+			border: none;
+			border-radius: 10px;
+			 cursor: pointer;
+        }
+        .back-to-top:hover {
+            background-color: #0056b3;
+	</style>
+	
 	<body>
 	<!--top-->
 	<!--This body is full of content-->
@@ -267,6 +282,8 @@
 		<p>pouring water into a sponge</p>
 	<h2 align="center"><i>(These are all 7 stages of the water cycle)</h2></i>
 	</div>
-	<button type="button"><a href="#top"><h1>Back to Top</h1></a></button>
+	<button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        Back to Top
+    </button>
 	</body>
 </html>
