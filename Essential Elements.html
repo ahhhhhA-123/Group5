@@ -21,6 +21,20 @@
 		margin: auto;
 	}
 	</style>
+		<style>
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #00ff62;
+			border: none;
+			border-radius: 10px;
+			 cursor: pointer;
+        }
+        .back-to-top:hover {
+            background-color: #0056b3;
+	</style>
 	
 	<body>
 	<!--top-->
@@ -79,6 +93,9 @@
 	   </h3>
 	   </div>
 	   <h1 style="color:black" align="center"> These elements and compounds work together to support life processes, including metabolism, growth, and reproduction </h1>
-	   <center><button type="button"><a href="#top"><h1>Back to Top</h1></a></button></center>
+	   <h1 style="color:black" align="center"> These elements and compounds work together to support life processes, including metabolism, growth, and reproduction </h1>
+	   <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        Back to Top
+    </button>
 	</body>
 </html>
